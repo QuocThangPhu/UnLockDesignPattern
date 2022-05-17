@@ -1,4 +1,5 @@
 <?php
+
 namespace Thangphu\DesignPattern\Bridge;
 interface ColorInterface
 {

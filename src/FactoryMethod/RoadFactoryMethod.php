@@ -5,12 +5,12 @@ namespace Thangphu\DesignPattern\FactoryMethod;
 class RoadFactoryMethod implements TransportInterface
 {
     /**
-     * @return VehicleIntreface
+     * @return VehicleInterface
      */
-    public function deliver(): VehicleIntreface
+    public function deliver(): VehicleInterface
     {
-        $ramdom = rand(0, 2);
-        switch ($ramdom) {
+        $randomNumber = rand(0, 2);
+        switch ($randomNumber) {
             case 0:
                 return new TruckFactoryMethod();
             case 1:

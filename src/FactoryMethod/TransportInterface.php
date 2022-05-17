@@ -5,7 +5,7 @@ namespace Thangphu\DesignPattern\FactoryMethod;
 interface TransportInterface
 {
     /**
-     * @return VehicleIntreface
+     * @return VehicleInterface
      */
-    public function deliver(): VehicleIntreface;
+    public function deliver(): VehicleInterface;
 }

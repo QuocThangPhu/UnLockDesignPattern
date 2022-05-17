@@ -2,7 +2,7 @@
 
 namespace Thangphu\DesignPattern\FactoryMethod;
 
-interface VehicleIntreface
+interface VehicleInterface
 {
     /**
      * @return String

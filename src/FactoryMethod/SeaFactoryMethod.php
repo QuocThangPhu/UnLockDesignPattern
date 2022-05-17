@@ -5,12 +5,12 @@ namespace Thangphu\DesignPattern\FactoryMethod;
 class SeaFactoryMethod implements TransportInterface
 {
     /**
-     * @return VehicleIntreface
+     * @return VehicleInterface
      */
-    public function deliver(): VehicleIntreface
+    public function deliver(): VehicleInterface
     {
-        $ramdom = rand(1, 3);
-        switch ($ramdom) {
+        $randomNumber = rand(1, 3);
+        switch ($randomNumber) {
             case 1:
                 return new ShipFactoryMethod();
             case 2:

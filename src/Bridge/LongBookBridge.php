@@ -9,6 +9,6 @@ class LongBookBridge extends AbstractBook
      */
     public function getInfo(): string
     {
-            return "the long book has a lot of content with " . $this->color->getColor() . "\n";
+        return "the long book has a lot of content with " . $this->color->getColor() . "\n";
     }
 }

@@ -15,8 +15,11 @@ class RestaurantFacade
     {
         $sitting = new DinnerTableFacade();
         $eating = new RibRiceFacade();
+        $eating2 = new BraisedBeefRiceFacade();
         $drinking = new FruitJuiceFacade();
-        $result = $sitting->sit() . "\n" . $eating->eat() . "\n" . $drinking->drink() . "\n";
+        $drinking2 = new GassedDrinkFacade();
+        $result = $sitting->sit() . "\n" . $eating->eat() . " and " . $eating2->eat() .
+            "\n" . $drinking->drink() . " and " . $drinking2->drink() . "\n";
         return $result;
     }
 }

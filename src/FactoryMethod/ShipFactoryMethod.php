@@ -2,7 +2,7 @@
 
 namespace Thangphu\DesignPattern\FactoryMethod;
 
-class ShipFactoryMethod implements VehicleIntreface
+class ShipFactoryMethod implements VehicleInterface
 {
     /**
      * @return string
