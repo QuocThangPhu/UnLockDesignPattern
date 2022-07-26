@@ -1,0 +1,15 @@
+{
+    "name": "thangphu/un-lock-design-pattern",
+    "autoload": {
+        "psr-4": {
+            "Thangphu\\DesignPattern\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ThangPhu-nfq",
+            "email": "thang.phu@nfq.asia"
+        }
+    ],
+    "require": {}
+}
